@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./assets/fav-icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> -->
+    <title>Grocery Store Website Just Using HTML And CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navigation">
+
+        <a href="#" class="logo"><span>e</span>Grocery</a>
+        
+        <!------- menu-btn ------->
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon">
+            <span class="nav-icon"></span>
+        </label>        
+        
+        
+        <ul class="menu">
+            <li><a href="">Home</a></li>
+            <li><a href="">Categories</a></li>
+            <li><a href="">Our Packages</a></li>
+            <li><a href="">Our App</a></li>
+        </ul>
+
+        <div class="right-nav">
+            <a href="" class="like">
+                <i class="far fa-heart"></i>
+                <span>0</span>
+            </a>
+            
+            <a href="" class="cart">
+                <i class="fas fa-shopping-cart"></i>
+                <span>0</span>
+            </a>
+        </div>
+    </nav>
+<!------------------ Navbar Section ----------------->
+<section id="search-banner">
+    <img src="./assets/bg-1.png" class="bg-1" alt="">
+    <img src="./assets/bg-2.png" class="bg-2" alt="">
+<!------------------ Text----------------->
+    <div class="search-banner-text">
+        <h1>Order Your Daily Groceries</h1>
+        <strong>#Free Delivery</strong>
+
+        
+        <form action="" class="search-box">
+        <i class="far fa-search"></i>
+        <input type="text" class="search-input" placeholder="Search your daily Groceries" name="search" required>
+    
+        <input type="submit" class="search-btn" value="Search">
+        </form>
+    </div>
+
+</section>
+
+<!------------------ Category Section ----------------->
+
+<section id="category">
+    <div class="category-heading">
+        <h2>Category</h2>
+        <span>All</span>
+    </div>
+    <div class="category-container">
+
+        <a href="#" class="category-box">
+            <img src="./assets/fish.png" alt="">
+            <span>Fish & Meat</span>
+        </a>
+
+        <a href="#" class="category-box">
+            <img src="./assets/Vegetables.png" alt="">
+            <span>Fish & Meat</span>
+        </a>
+
+        <a href="#" class="category-box">
+            <img src="./assets/medicine.png" alt="">
+            <span>Fish & Meat</span>
+        </a>
+
+        <a href="#" class="category-box">
+            <img src="./assets/baby.png" alt="">
+            <span>Fish & Meat</span>
+        </a>
+
+        <a href="#" class="category-box">
+            <img src="./assets/office.png" alt="">
+            <span>Fish & Meat</span>
+        </a>
+
+        <a href="#" class="category-box">
+            <img src="./assets/beauty.png" alt="">
+            <span>Fish & Meat</span>
+        </a>
+
+        <a href="#" class="category-box">
+            <img src="./assets/Gardening.png" alt="">
+            <span>Fish & Meat</span>
+        </a>
+
+    </div>
+</section>
+
+
+<section id="popular-product">
+    <div class="product-heading">
+        <h3>Popular Products</h3>
+        <span>All</span>
+    </div>
+
+    <div class="product-container">
+        <div class="product-box">
+            <img src="./assets/apple.png" alt="apple">
+            <strong>Apple</strong>
+            <span class="quantity">1 KG</span>
+            <span class="price">$2</span>
+
+            <a href="#" class="cart-btn">
+                <i class="fas fa-shopping-bag"></i>Add To Cart
+            </a>
+
+            <a href="#" class="like-btn">
+                <i class="fas fa-heart"></i>
+            </a>
+        </div>
+
+        <div class="product-box">
+            <img src="./assets/chili.png" alt="apple">
+            <strong>Apple</strong>
+            <span class="quantity">1 KG</span>
+            <span class="price">$2</span>
+
+            <a href="#" class="cart-btn">
+                <i class="fas fa-shopping-bag"></i>Add To Cart
+            </a>
+
+            <a href="#" class="like-btn">
+                <i class="fas fa-heart"></i>
+            </a>
+        </div>
+
+        <div class="product-box">
+            <img src="./assets/onion.png" alt="apple">
+            <strong>Apple</strong>
+            <span class="quantity">1 KG</span>
+            <span class="price">$2</span>
+
+            <a href="#" class="cart-btn">
+                <i class="fas fa-shopping-bag"></i>Add To Cart
+            </a>
+
+            <a href="#" class="like-btn">
+                <i class="fas fa-heart"></i>
+            </a>
+        </div>
+
+        <div class="product-box">
+            <img src="./assets/patato.png" alt="apple">
+            <strong>Apple</strong>
+            <span class="quantity">1 KG</span>
+            <span class="price">$2</span>
+
+            <a href="#" class="cart-btn">
+                <i class="fas fa-shopping-bag"></i>Add To Cart
+            </a>
+
+            <a href="#" class="like-btn">
+                <i class="fas fa-heart"></i>
+            </a>
+        </div>
+
+        <div class="product-box">
+            <img src="./assets/garlic.png" alt="apple">
+            <strong>Apple</strong>
+            <span class="quantity">1 KG</span>
+            <span class="price">$2</span>
+
+            <a href="#" class="cart-btn">
+                <i class="fas fa-shopping-bag"></i>Add To Cart
+            </a>
+
+            <a href="#" class="like-btn">
+                <i class="fas fa-heart"></i>
+            </a>
+        </div>
+
+        <div class="product-box">
+            <img src="./assets/tamato.png" alt="apple">
+            <strong>Apple</strong>
+            <span class="quantity">1 KG</span>
+            <span class="price">$2</span>
+
+            <a href="#" class="cart-btn">
+                <i class="fas fa-shopping-bag"></i>Add To Cart
+            </a>
+
+            <a href="#" class="like-btn">
+                <i class="fas fa-heart"></i>
+            </a>
+        </div>
+    </div>
+
+   
+</section>
+
+<!-------------------- Popular-bunkle-pack -------------------->
+<section id="popular-bundle-pack">
+    <div class="product-heading">
+        <h3>Popular Bundle Pack</h3>
+    </div>
+
+    <div class="product-container">
+        <div class="product-box">
+            <img src="./assets/pack1.png" alt="apple">
+            <strong>Apple</strong>
+            <span class="quantity">1 KG</span>
+            <span class="price">$2</span>
+
+            <a href="#" class="cart-btn">
+                <i class="fas fa-shopping-bag"></i>Add To Cart
+            </a>
+
+            <a href="#" class="like-btn">
+                <i class="fas fa-heart"></i>
+            </a>
+        </div>
+
+        <div class="product-box">
+            <img src="./assets/pack2.jpg" alt="apple">
+            <strong>Apple</strong>
+            <span class="quantity">1 KG</span>
+            <span class="price">$2</span>
+
+            <a href="#" class="cart-btn">
+                <i class="fas fa-shopping-bag"></i>Add To Cart
+            </a>
+
+            <a href="#" class="like-btn">
+                <i class="fas fa-heart"></i>
+            </a>
+        </div>
+
+        <div class="product-box">
+            <img src="./assets/pack3.png" alt="apple">
+            <strong>Apple</strong>
+            <span class="quantity">1 KG</span>
+            <span class="price">$2</span>
+
+            <a href="#" class="cart-btn">
+                <i class="fas fa-shopping-bag"></i>Add To Cart
+            </a>
+
+            <a href="#" class="like-btn">
+                <i class="fas fa-heart"></i>
+            </a>
+        </div>
+
+        <div class="product-box">
+            <img src="./assets/pack3.png" alt="apple">
+            <strong>Apple</strong>
+            <span class="quantity">1 KG</span>
+            <span class="price">$2</span>
+
+            <a href="#" class="cart-btn">
+                <i class="fas fa-shopping-bag"></i>Add To Cart
+            </a>
+
+            <a href="#" class="like-btn">
+                <i class="fas fa-heart"></i>
+            </a>
+        </div>
+
+        <div class="product-box">
+            <img src="./assets/pack2.jpg" alt="apple">
+            <strong>Apple</strong>
+            <span class="quantity">1 KG</span>
+            <span class="price">$2</span>
+
+            <a href="#" class="cart-btn">
+                <i class="fas fa-shopping-bag"></i>Add To Cart
+            </a>
+
+            <a href="#" class="like-btn">
+                <i class="fas fa-heart"></i>
+            </a>
+        </div>
+
+        <div class="product-box">
+            <img src="./assets/pack1.png" alt="apple">
+            <strong>Apple</strong>
+            <span class="quantity">1 KG</span>
+            <span class="price">$2</span>
+
+            <a href="#" class="cart-btn">
+                <i class="fas fa-shopping-bag"></i>Add To Cart
+            </a>
+
+            <a href="#" class="like-btn">
+                <i class="fas fa-heart"></i>
+            </a>
+        </div>
+    </div>
+    
+
+</section>
+<!----------------------- Clients ----------------------------->
+<section id="clients">
+    <div class="client-headings">
+        <h3>What Our Client's Say</h3>
+    </div>
+<!----------------------- Box Container ----------------------------->
+    <div class="client-box-container">
+        <div class="client-box">
+            <div class="client-profile">
+                <img src="./assets/client-1.jpg" alt="">
+            
+                <div class="profile-text">
+                    <strong>James Mcavoy</strong>
+                    <span>CEO</span>
+                </div>
+            </div>
+
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, ex, impedit beatae eveniet quia modi quisquam quas reiciendis illo non, magni unde dignissimos sed fugiat dicta nulla nesciunt repellat adipisci.</p>
+        </div>
+        <div class="client-box">
+            <div class="client-profile">
+                <img src="./assets/client-2.jpg" alt="">
+            
+                <div class="profile-text">
+                    <strong>Adward Mcavoy</strong>
+                    <span>Software Developer</span>
+                </div>
+            </div>
+
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, ex, impedit beatae eveniet quia modi quisquam quas reiciendis illo non, magni unde dignissimos sed fugiat dicta nulla nesciunt repellat adipisci.</p>
+        </div>
+
+        <div class="client-box">
+            <div class="client-profile">
+                <img src="./assets/client-3.jpg" alt="">
+            
+                <div class="profile-text">
+                    <strong>Ava Alex</strong>
+                    <span>Marketer</span>
+                </div>
+            </div>
+
+            <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            </div>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, ex, impedit beatae eveniet quia modi quisquam quas reiciendis illo non, magni unde dignissimos sed fugiat dicta nulla nesciunt repellat adipisci.</p>
+        </div>
+    </div>
+
+</section>
+
+<section id="partner">
+    <div class="partner-heading">
+        <h3>Our Trusted Partner</h3>
+    </div>
+    <!----------------------- logo Container ----------------------------->
+    <div class="logo-container">
+        <img src="./assets/logo-1.png" alt="">
+        <img src="./assets/logo-2.png" alt="">
+        <img src="./assets/logo-3.png" alt="">
+        <img src="./assets/logo-4.png" alt="">
+    </div>
+</section>
+
+<section id="download-app">
+    <div class="app-img">
+        <img src="./assets/mobile-app.png" alt="">
+    </div>
+
+    <div class="download-app-text">
+        <strong>Download App</strong>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam veritatis excepturi dolores, natus rerum adipisci eum velit in at minus explicabo repellat ipsa quibusdam voluptate, ducimus exercitationem libero, aut ratione?</p>
+        <div class="download-btns">
+            <a href="">
+                <img src="./assets/appstore-btn.png" alt="">
+            </a>
+
+            <a href="">
+                <img src="./assets/googleplay-btn.png" alt="">
+            </a>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="footer-container">
+        <div class="footer-logo">
+            <a href=""><span>e</span>Grocery</a>
+       
+        <div class="footer-social">
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+
+    <div class="footer-links">
+        <strong>Product</strong>
+        <ul>
+            <li><a href="#">Clothes</a></li>
+            <li><a href="#">Packages</a></li>
+            <li><a href="#">Popular</a></li>
+            <li><a href="#">New</a></li>
+        </ul>
+    </div>
+
+    <div class="footer-links">
+        <strong>Product</strong>
+        <ul>
+            <li><a href="#">Clothes</a></li>
+            <li><a href="#">Packages</a></li>
+            <li><a href="#">Popular</a></li>
+            <li><a href="#">New</a></li>
+        </ul>
+    </div>
+
+    <div class="footer-links">
+        <strong>Product</strong>
+        <ul>
+            <li><a href="#">Clothes</a></li>
+            <li><a href="#">Packages</a></li>
+            <li><a href="#">Popular</a></li>
+            <li><a href="#">New</a></li>
+        </ul>
+    </div>
+    </div>
+</footer>
+</body>
+</html>
